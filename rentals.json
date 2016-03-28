@@ -16,5 +16,25 @@
     "type": "Apartment",
     "bedrooms": 3,
     "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Wheeldon_Apartment_Building_-_Portland_Oregon.jpg"
-  }]
+  }],
+
+  "announcements": [{
+    "author": "Bobby Canteen",
+    "creationDate": "today",
+    "expirationDate": "tomorrow",
+    "title": "Weather Warning",
+    "content": "It is going to be beautiful so WATCH OUT!"
+    }, {
+    "author": "Sara Lee",
+    "creationDate": "yesterday",
+    "expirationDate": "two weeks from yesterday",
+    "title": "Note About Cleaning",
+    "content": "Be sure to specify the proper cleaning procedures in your rental ad so tenants know what to do."
+    }, {
+    "author": "Burrito Brad",
+    "creationDate": "three years ago",
+    "expirationDate": "unspecified",
+    "title": "Leftover Food",
+    "content": "It would be helpful if everybody would leave fresh burritos in the fridge upon departure. I will collect them at the end of each stay. Thank you for your attention to this message."
+    }]
 }
