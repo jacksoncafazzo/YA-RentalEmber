@@ -2,6 +2,10 @@
 
 <ul>
   {{#each model as |announcement|}}
-    {{announcement-tile announcement=announcement}}
+    <button {{action 'announcementToggle' announcement}}></button>
+    <h3>Title: {{announcement.title}} - {{announcement.creationDate}}</h3>
+    {{#if announcementShowing}}
+      {{announcement-tile announcement=announcement}}
+    {{/if}}
   {{/each}}
 </ul>

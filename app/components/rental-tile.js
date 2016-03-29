@@ -6,7 +6,7 @@ export default Ember.Component.extend({
     imageShow: function() {
       this.set('isImageShowing', true);
     },
-    imageHide: function() {
+    imageHide() {
       this.set('isImageShowing', false);
     },
     delete(rental) {
